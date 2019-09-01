@@ -1,0 +1,18 @@
+** Intro
+This is mainly to integrate QMK with Emacs and further dissolve the barrier
+between thought and code, by integrating the keyboard with the editor. Several
+macros, which can be included from the header =emacs.h=, have been defined.
+
+** =emacs.h=
+This header houses macros which conform to Emacs defaults.
+
+** =emacs-opinionated.h=
+# TODO: Add link to my Emacs dotfile repository.
+This header houses my own macros which depend upon various packages,
+customizations, and macros defined in my init.el
+
+** =sway.h=
+Provides several functions that are useful to Sway or i3 according to the default bindings.
+
+** =sway-opinionated.h=
+Provides the same functionality as =sway.h= but according to my bindings.
